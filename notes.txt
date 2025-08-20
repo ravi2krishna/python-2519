@@ -103,3 +103,17 @@
             -> Storing Source Code
 
             -> Integrate GitHub Account with Git & IDE
+
+20th Aug
+========
+
+-> How To Setup 
+
+    -> Python
+    -> IDE - VS Code
+    -> Git (Git bash)
+    -> GitHub
+    -> Version Controlling
+    -> Repository 
+    -> Cloning 
+    -> Pushing
