@@ -1,0 +1,58 @@
+18th Aug
+========
+
+-> Basic Python & Advanced Python
+
+    -> Full Stack 
+
+    -> Data Analytics / Data Science / Data Engineering
+
+    -> Cloud / DevOps
+
+-> Python
+
+    -> Programming Language
+
+    -> Programming Language 
+    
+        - To communicate with Machines
+        - Giving commands (instructions) to computer
+
+        -> English 
+
+        -> Computers can only understand Binary Language
+
+            -> Binary Language - 010101010101
+
+            -> 01010000 01111001 01110100 01101000 01101111 01101110
+
+                -> Python (Intermediate / Interpreter)
+
+            -> Python is high-level, programming Language    
+                
+
+        -> general-purpose programming Language (Python)
+
+            -> Desktop Applications
+            -> Web Applications (Django, Flask, FAST API etc)
+            -> Automation Scripts (Cloud / DevOps)
+            -> Functional Based 
+            -> etc
+
+        -> domain specific programming Language
+
+            -> SQL - Manage data bases using a language 
+            -> HTML, CSS,  
+
+    -> Programming Paradigms 
+
+        -> Python supports Multi Paradigm approach to solve problems
+
+            -> Imperative (How To Do)
+
+                -> Python with OOPS
+
+            -> Declarative (What To Do)
+
+                -> Functional Programming
+
