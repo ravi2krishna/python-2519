@@ -56,3 +56,50 @@
 
                 -> Functional Programming
 
+
+19th Aug
+========
+
+    -> Hardware 
+
+        -> i3 / i5 Processor
+        -> 8 GB RAM
+        -> 250 GB SSD / HDD
+    
+    -> Softwares
+
+        -> System Software
+
+            -> Win / Linux / Unix(MACOS)
+
+                -> Install Python 3.13.X (Python Interpreter)
+
+                    -> Making our System Capable of running Python Code
+                
+                -> Install IDE (Integrated Development Environment) (Visual Studio Code)
+
+                    -> For Writing Code
+
+                    -> We have support For
+
+                        -> Auto Code Completion
+
+                        -> Syntax Highlighting
+
+                        -> External Extensions Support
+
+                        -> Debugging, Build Related Tools 
+
+                -> Install Git (Version Control System - Code Tracking)
+
+                    -> Client Software 
+
+                    -> Track Source Code in your Workstation (Your Laptop)
+
+                    -> Tracked Code will be uploaded to GitHub
+
+        -> We need to setup GitHub Accounts 
+
+            -> Storing Source Code
+
+            -> Integrate GitHub Account with Git & IDE
