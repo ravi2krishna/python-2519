@@ -117,3 +117,39 @@
     -> Repository 
     -> Cloning 
     -> Pushing
+
+21st Aug
+========
+
+-> Write Python Code 
+
+    -> Script Mode (100%)
+
+        -> Using code editor 
+
+    -> Command Line / Interactive Mode (Quick Checks) 
+
+        -> Directly executing code on python Interpreter using 
+            CLI (Command Line Interface)
+
+    -> Syntax - Rules and guidelines 
+
+    -> print(hello world) -- issue
+    -> print(9) -- No issue
+
+    -> 9 is literal number, it doesn't need to be defined before hand
+    -> hello world is a text, which needs to be represented in single
+    or double quotes
+
+        -> print(hello world) Wrong Syntax
+        -> print('hello world') Correct Syntax
+    
+    -> Like English has 26 alphabets, which is basis for forming 
+        words and sentences
+    
+    -> Python has same concept, which are called as Keywords
+
+        -> keywords + syntax = program / app
+
+    -> import is a keyword --> imports module --> module is a .py file
+
