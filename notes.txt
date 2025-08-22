@@ -153,3 +153,38 @@
 
     -> import is a keyword --> imports module --> module is a .py file
 
+22nd Aug
+========
+
+-> Identifiers 
+
+    -> Within python an Identifier is name used to identify following
+
+        -> variables
+        -> functions
+        -> classes
+        -> objects
+        -> methods
+        -> modules 
+        -> etc
+    
+    -> Rules for naming Identifiers
+
+        -> Can contain
+
+            -> letters (a-z, A-Z)
+            -> digits (0-9)
+            -> underscore (_) 
+        
+        -> Must Start With
+
+            -> A letter (a-z, A-Z)
+            -> underscore (_) 
+        
+        -> NOTE : Cannot start with digits 
+        -> NOTE : Cannot be keywords 
+        -> NOTE: Case Sensitive (Name, name, NAME) (A, a)
+        -> NOTE: Always name the Identifiers appropriately
+
+
+
