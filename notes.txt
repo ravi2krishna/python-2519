@@ -187,4 +187,49 @@
         -> NOTE: Always name the Identifiers appropriately
 
 
+-> Why Python / Key Features Of Python
+
+    -> It's Easy (**)
+
+        -> Syntax
+        -> Execution
+        -> Simplicity of language(space)  
+
+    -> Fewer Lines Of Code (**)
+
+        -> Addition Program in Python it's 3 lines
+        -> Addition Program in Java it's 7 lines
+
+    -> Interpreted (Python) vs Compiled (Java) (**)
+
+        -> Performance -> Faster -> Compiled
+
+        -> Performance -> Slower -> Interpreted
+
+        -> Python Development Speed -> Faster 
+
+            -> Python is best prototype language
+
+        -> Java Development Speed -> Slower 
+
+    -> Dynamically Typed (Python) (**)
+
+        -> No need to explicitly define Data types
+
+        -> Static Typed (Java), where we need to explicitly
+            define the data types
+
+    -> Vast Library (**)
+
+    -> Scripting / Object Oriented (OOPS) / Functional (**)
+
+    -> Open Source (Free)
+
+    -> Robust 
+
+    -> Platform Independent 
+
+
+
+
 
