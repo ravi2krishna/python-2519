@@ -230,4 +230,56 @@
     -> Platform Independent
 
 
+23rd Aug
+========
+
+-> Variables
+
+    -> Variables are names for memory locations
+
+        -> Persistent Data (Permanent Data / Long Term Data)
+
+            -> Hard Disk 
+
+        -> Non-Persistent Data (Temporary Data)
+
+            -> RAM (Memory)
+    
+    -> A variable allows you to 
+
+        -> Assign Data
+        -> Manipulate Data (If Required)
+        -> Retrieve Data 
+
+    -> Syntax 
+
+        -> variable_name = value
+            student_age = 25
+
+            = Assignment operator
+
+    -> NOTE: In Python, the type of a variable can change during execution.
+
+    -> NOTE: A function does a task, and is represented using ()
+
+    -> type() - what is the data type of specified variable
+
+    -> id() - gives the memory address/location of variable
+
+    -> NOTE: Even though a and c are different variables, 
+        Python optimizes memory and may reuse the same object.
+    
+    -> Mutable Data : Data that can change / can be changed (Modify)
+
+        -> Lists, Dictionaries, Sets etc
+
+    -> Immutable Data : Data that cannot be changed (Non Modifiable)
+
+        -> numbers, strings, tuples etc
+
+    -> Any variable data, we can output using print() 
+
+    -> Operator Overloading - a single operator exhibits multiple behaviors
+        based on the input data given (OOPS Principle - Polymorphism)
+
 
