@@ -283,3 +283,16 @@
         based on the input data given (OOPS Principle - Polymorphism)
 
 
+25th Aug
+========
+
+-> What is concatenation ? 
+    -> Joining multiple Strings
+
+-> What is interpolation ? 
+    -> interpolation in programming means replacing placeholders with actual values
+
+-> Using f-Strings (Formatted String Literals)  
+
+    -> An f-String allows you to embed variables directly inside a string using {}
+    
