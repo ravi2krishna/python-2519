@@ -89,3 +89,54 @@ student_name = "john"
 student_class = 8
 student_school = "DPS"
 print(f"My name is {student_name} im studying in {student_class} class in {student_school} school")
+
+# Operators 
+
+# Arithmetic Operators
+n1 = 3
+n2 = 2
+print(f"Sum of n1 and n2 is: {n1+n2}")
+print(f"Difference of n1 and n2 is: {n1-n2}")
+print(f"Product of n1 and n2 is: {n1*n2}")
+print(f"Division of n1 and n2 is: {n1/n2}")
+print(f"Modulus of n1 and n2 is: {n1%n2}")
+print(f"floor division of n1 and n2 is: {n1//n2}")
+print(f"exponentiation of n1 and n2 is: {n1**n2}")
+
+# without Compound Assignment Operators
+x = 10
+x = x + 5
+print(x)
+
+# with Compound Assignment Operators
+x = 10
+x += 5 # x = x + 5
+print(x)
+
+x = 10
+x *= 5 # x = x * 5
+print(x)
+
+# Comparison Operators    
+n1 = 3
+n2 = 2
+n3 = 3
+print(n1 == n2)
+print(n1 == n3)
+print(n1 >= n2)
+print(n1 != n2)
+
+# Logical Operators
+x = 7
+y = 5
+a = 15
+b = 9
+
+resultand = x > y and a < b # T and F -> F
+print(resultand)
+
+resultor = x > y or a < b # T or F -> T
+print(resultor)
+
+resultnot = x > y or a < b # T or F -> T
+print(not resultnot)

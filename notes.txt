@@ -295,4 +295,50 @@
 -> Using f-Strings (Formatted String Literals)  
 
     -> An f-String allows you to embed variables directly inside a string using {}
-    
+
+-> A variable allows you to 
+
+        -> Assign Data
+            -> Manipulate Data (If Required)
+        -> Retrieve Data 
+
+
+-> Operators
+
+    -> In python, an operator is symbol which performs an operation on
+        variables and values
+
+    -> To Manipulate Data we need Operators    
+
+    -> Types Of Operators
+
+        -> Arithmetic Operators - Mathematical calculations
+            -> + - * / % 
+            -> //- floor division (same as division, but round off value)
+            -> ** - exponentiation
+
+        -> Compound Assignment Operators
+            -> Python provides Operator to combine Arithmetic and Assignment Operators
+            -> For concise(short hand) coding 
+            -> x = x + 5 --> x += 5
+
+        -> Comparison Operators    
+
+            -> Used to compare values and return a boolean type(True/False) as result
+            -> ==, !=, >, <, >=, <=
+
+        -> Logical Operators
+            -> Used to combine multiple conditions(boolean values)
+            -> and - return true, when conditions are true
+            -> or - return true, at least one condition is true
+            -> not - negates the boolean value, if value is true then its result false
+
+        -> Membership Operators
+        -> Identity Operators
+         
+
+
+
+
+
+
