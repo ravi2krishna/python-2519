@@ -140,3 +140,32 @@ print(resultor)
 
 resultnot = x > y or a < b # T or F -> T
 print(not resultnot)
+
+# membership operators
+a_list = [10,20,30]
+is_present = 10 in a_list
+print(is_present)
+is_present = 100 in a_list
+print(is_present)
+is_present = 100 not in a_list
+print(is_present)
+
+data = "hello"
+is_present = "a" in data
+print(is_present)
+
+n1 = 10
+n2 = 10
+print(id(n1))
+print(id(n2))
+print(n1 is n2)
+print(n1 == n2)
+
+n1 = [10,20,30]
+n2 = [10,20,30]
+print(id(n1))
+print(id(n2))
+print(n1 is n2)
+print(n1 == n2)
+
+print(n1 is not n2)

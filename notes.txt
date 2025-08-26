@@ -333,9 +333,27 @@
             -> or - return true, at least one condition is true
             -> not - negates the boolean value, if value is true then its result false
 
+26th Aug
+========
+
         -> Membership Operators
+            -> It's used to test if a sequence is present in object
+                -> in : returns True if the sequence has specified value
+                -> not in : returns True if the sequence has no specified value
+
         -> Identity Operators
-         
+            -> It's sued to compare objects 
+            -> NOTE : Not comparing values (If you want to compare values use ==)
+
+                -> is : Returns True if both variables are pointing to same memory block
+                -> is not : Returns True if both variables are not pointing to same memory block    
+
+
+            -> NOTE : Is Python 100% Object Oriented Language or not ? Yes
+                        -> In python everything is an object
+
+                -> Java has primitive data types
+
 
 
 
