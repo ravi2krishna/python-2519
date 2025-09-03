@@ -216,3 +216,39 @@ class Student: # class
 
 edify_student = Student() # object
 print(type(edify_student))
+
+
+# Student Management System
+student_id = 101
+student_name = "John"
+student_age = 20
+
+# Scores
+quiz_score = 80
+assignment_score = 75
+exam_score = 90
+
+# attendance
+student_attendance = 90
+
+# calculations
+total_score = quiz_score + assignment_score + exam_score
+avg_score = total_score/3
+
+student_passed = avg_score > 75
+
+# increment attendance
+# student_attendance = student_attendance + 1 # long hand
+student_attendance += 1 # short hand
+
+# award eligibility
+award_eligibility = student_attendance >= 90 and student_passed
+
+# Process output
+print("======= Student Report =======")
+print(f"Student Name: {student_name}")
+print(f"Student Total Score: {total_score}")
+print(f"Student Average Score: {avg_score}")
+print(f"Student Current Attendance: {student_attendance}")
+print(f"Student Passed: {student_passed}")
+print(f"Student Awarded: {award_eligibility}")
