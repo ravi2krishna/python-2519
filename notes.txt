@@ -398,3 +398,21 @@
         -> NOTE : All the above are predefined data types, we can create our custom data types based on requirements  
 
 
+3rd Sep 2025
+============
+
+-> Student Management System
+
+-> Type Conversion & Type Casting
+
+    -> The above are used to convert values from one data type to another data type
+
+    -> Type Conversion : Implicit / Automatic meaning python by default performs 
+        conversions when it's safe and there is no data loss 
+            -> Widening : conversion of smaller data types to larger 
+    
+    -> Type Casting : Explicit / Manually done by developer using built in functions
+        -> Narrowing : conversion of larger data types to smaller 
+            -> int() -> converts to integer --> int(3.5) - 3
+            -> float() -> converts to float --> int(3) - 3.0
+            -> str() -> converts to string --> str(100) - "100"
