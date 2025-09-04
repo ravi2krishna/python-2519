@@ -416,3 +416,44 @@
             -> int() -> converts to integer --> int(3.5) - 3
             -> float() -> converts to float --> int(3) - 3.0
             -> str() -> converts to string --> str(100) - "100"
+
+4th Sep 2025
+============
+
+    -> Control Structures / Statement
+
+    -> Control Structures helps you to control the flow of execution in program
+
+    -> Categories
+
+        -> Decision Making Statements (Conditional Statements)
+        -> Looping Statements (Iterative Statements)
+        -> Branching Statements (Jump Statements)
+
+    -> Conditional / Decision Making Statements
+
+        -> Used to evaluate a condition (True/False) 
+
+        -> if : Runs block of code if condition is true
+        -> if else : Runs one block of code if condition is true and 
+                     runs another block of code if condition is false
+        -> elif ladder : Used to check multiple conditions 
+        -> match-case : alternative to if-else, when you have multiple conditions
+    
+    -> Indentation : Refers to spaces to the beginning of the line that will 
+        define code blocks (conditionals, loops, functions, classes etc)
+
+        -> At least one space or recommended is 4 spaces 
+        -> All lines in the same block must have same Indentation
+        -> Improper Indentation : Syntax Error
+    
+    -> input() function : takes user input from keyboard as a string 
+
+        -> variable = input("Enter Some Value)
+
+    -> Ternary Operator : also called as Conditional Operator, allows you to
+        write short hand if-else Statement, generally used for single expressions
+
+        -> Syntax : 
+            value_if_true if condition else value_if_false
+
