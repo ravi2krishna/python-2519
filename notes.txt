@@ -475,3 +475,34 @@
         -> dir() : used to list all the valid attributes and functionalities 
 
         -> range() : used to generate a sequence of numbers
+
+6th Sep 2025
+============
+
+    -> range(start,stop,step)
+
+        -> start: starting value by default is 0
+        -> stop: ending value(excluded)
+        -> step: increment default is 1
+
+    -> few examples
+
+        -> range(5) : 0 1 2 3 4
+        -> range(1,6) : 1 2 3 4 5
+        -> range(1,6,1) : 1 2 3 4 5
+        -> range(2,10,2) : 2 4 6 8 
+
+    -> To Do the step reverse use -1
+
+        -> range(10,1,-1) : 10 9 8 7 6 5 4 3 2
+        -> range(10,1,-2) : 10 8 6 4 2
+    
+    -> Nested Loops : Loops inside Loops
+
+    -> Branching Statements (Jump Statements)
+
+        -> Used to control the flow of iterations inside the loops  
+
+            -> break : exits the loop entirely
+            -> continue : skips the current iteration and continue the loop
+            -> pass : does nothing, generally used as place holder
