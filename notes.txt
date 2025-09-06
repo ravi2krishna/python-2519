@@ -457,3 +457,21 @@
         -> Syntax : 
             value_if_true if condition else value_if_false
 
+5th Sep 2025
+============
+
+    -> Nested Conditionals : Conditionals inside Conditionals
+
+    -> Looping Statements (Iterative Statements)
+
+        -> Used to execute a block of code repeatedly, based on a condition.
+
+            -> For repetitive tasks and automation tasks
+        
+        -> while loop : Runs a block of code, as long as the specified condition is True
+
+        -> for loop : Used to Iterate over a Sequence(Strings, Lists, Tuples, Range etc)
+    
+        -> dir() : used to list all the valid attributes and functionalities 
+
+        -> range() : used to generate a sequence of numbers
