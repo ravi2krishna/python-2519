@@ -506,3 +506,51 @@
             -> break : exits the loop entirely
             -> continue : skips the current iteration and continue the loop
             -> pass : does nothing, generally used as place holder
+
+8th Sep 2025
+============
+
+-> Strings : One of the most important and widely used data type.
+
+-> In Python, String is a sequence of characters enclosed within 
+    single or double quotes, we can use triple quotes also but not recommended.
+
+    -> NOTE : triple quotes are recommended for multi line strings 
+
+    -> If you want to use ' inside a string, enclose with double quotes
+
+    -> If you want to use " inside a string, enclose with single quotes
+
+    -> If you want to use both ' and " quote, then use triple single or double quotes
+
+-> Indexing In Python
+
+    -> Python allows you to access each character in a string using an index number
+
+    -> Index Starts From 0 (Zero)
+
+    -> Indexing goes in both positive and negative directions too
+
+    -> text = "python"
+
+        0   1   2   3   4   5 (positive indexing)
+        p   y   t   h   o   n
+       -6              -2   -1 (negative indexing)
+
+       -> print(text[index])
+       -> print(text[4]) # o
+    
+    -> If index is not given properly, leads to Errors
+
+    -> NOTE: we have a predefined function len() -> returns number of items in an object
+
+
+    -> Slicing In Python : Slicing means cutting a substring from the original string using index
+
+        -> To access range of characters in a string
+
+        -> string[start:stop:step]
+
+            start: index to start from (inclusive)
+            stop: index to stop at (exclusive)
+            step: how many character to step(default is 1)
