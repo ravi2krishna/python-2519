@@ -554,3 +554,22 @@
             start: index to start from (inclusive)
             stop: index to stop at (exclusive)
             step: how many character to step(default is 1)
+9th Sep 2025
+============
+
+    -> Negative Slicing (Backward)
+
+    -> Positive Slicing (Forward)
+
+    -> String Immutability : Once a string is created, it cannot be changed 
+    
+    -> String Formatting 
+
+    -> String Repetition : Multiply the string using * operator
+
+    -> String Methods : String class provides multiple methods to work with string related operations
+
+        -> Input : RAvi2KRIshna
+
+        -> Output : ravi2krishna@gmail.combine
+        
