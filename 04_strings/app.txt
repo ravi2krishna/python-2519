@@ -1,0 +1,33 @@
+Student Grade Tracker (Application)
+===================================
+
+Collect Student Information
+
+    Student ID 
+    Student Name 
+    Attendance 
+    Number of subjects
+    Total Score 
+
+Repeatedly ask the user to enter scores for multiple subjects.
+    Accepts "yes"
+
+Add each entered score to the total score 
+    and increment the number of subjects
+
+Calculate Average Score
+
+Determine Performance Level based on Average Score
+    85 and above → "Excellent"
+    70 to 84 → "Good"
+    50 to 69 → "Average"
+    Below 50 → "Needs Improvement"
+
+Check Attendance Status
+    If attendance is less than 75%
+        print a WARNING Low Attendance
+    else OK Attendance Satisfied
+
+Display Final Results
+    student’s ID, name, total score, average score, 
+    performance level, and attendance with appropriate messages.
