@@ -572,4 +572,15 @@
         -> Input : RAvi2KRIshna
 
         -> Output : ravi2krishna@gmail.combine
-        
+
+10th Sep 2025
+=============
+
+    -> Application Using 
+        [ Identifiers - Variables - Operators - Control Statements - Strings]
+
+    
+
+
+
+
