@@ -1,0 +1,39 @@
+Student Grade Tracker (Application)
+===================================
+
+Student ID
+    -> In the previous project if I give the student id as text it takes, 
+    if I give negative number it takes, zero it takes, 
+    now only take positive numbers only excluding zero.
+
+    -> If given id is 101, then format as EDIFY-101
+
+Student Name
+    -> If i give student name it accepts number and symbols also, 
+    but only alphabets it should accept
+
+    -> If any spaces are given at the beginning and end remove them 
+
+    -> Format like below 
+
+        -> ravi krishna : Ravi Krishna 
+    
+    -> Name should be at least 3 characters 
+
+Subject Score 
+    Subject score should be in between 0 - 100
+
+Email Generation
+    -> Simulate a system generated email 
+    -> From given name, extract first name, concerting to lower case
+        Ravi Krishna -> ravi 
+    -> System Generated University Email : firstname.id@university.edu 
+        -> ravi.101@edify.edu 
+
+Course Fee 
+    -> Take base course fee as input and ensure it's positive number 
+    -> Ask for coupon to student, apply discount based on coupon
+        PROMO -> 5000 discount  
+    -> Calculate Final Fee After Discount 
+
+
