@@ -590,3 +590,54 @@
 
     -> -> Enhanced Student Grade & FEE Tracker - 2
 
+15th Sep 2025
+=============
+
+    -> Complex Data Types (Data Structures)
+
+        -> Simple Data Type : One Value 
+
+            -> data = 10
+
+        -> Complex Data Type : Multiple Values 
+
+            -> data = [10,20,30,40,50] 
+
+    -> In python to store more than one value, we have following classes
+
+        -> Lists
+        -> Tuples
+        -> Sets
+        -> Dictionaries
+
+    -> Lists 
+
+        -> List is a data Structure which allows you to store multiple values in single variable
+
+        -> Lists are represented using [] or using list class
+
+        -> Accessing Data in lists
+
+            -> Like in strings, for lists we have index starts from 0
+
+            -> Has both positive and negative index
+
+            -> Indexing same as strings
+
+            -> Slicing same as strings
+
+            -> nums = [10,20,30,40,50]
+
+                     0   1    2    3    4  (positive indexing)
+                    10   20   30   40   50  
+                    -6             -2   -1 (negative indexing)
+            
+            -> string[start:stop:step]
+
+            start: index to start from (inclusive)
+            stop: index to stop at (exclusive)
+            step: how many character to step(default is 1)
+
+    -> Negative Slicing (Backward)
+
+    -> Positive Slicing (Forward)
