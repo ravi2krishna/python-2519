@@ -641,3 +641,20 @@
     -> Negative Slicing (Backward)
 
     -> Positive Slicing (Forward)
+
+16th Sep 2025
+=============
+
+    -> Looping Through Lists 
+
+    -> Using Operators on elements of lists
+
+    -> Conditionals with Lists 
+
+    -> Duplicates are also allowed in Lists 
+
+    -> List Methods / Operations
+
+        print(dir(list))
+
+    

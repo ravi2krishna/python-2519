@@ -88,6 +88,8 @@ if day in days:
 else:
     print("Does not Exists")
 
-# list methods
-list = [10]
-print(dir(list))
+# duplicates inside list
+l = [10,20,30,40,50,50,40,20]
+print(l)
+
+
