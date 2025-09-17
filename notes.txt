@@ -657,4 +657,75 @@
 
         print(dir(list))
 
+17th Sep 2025
+=============
+
+-> List Methods / Operations Continued 
+
+-> List Characteristics 
+
+    -> Ordered : Lists preserve order 
+
+    -> Mutable : Changeable / Modifiable (append(), remove())
+
+    -> Duplicates allowed 
+
+    -> Can hold different types of data (int, str, float etc)
+
+
+->  Tuples 
+
+     -> Tuples is a data Structure which allows you to store multiple values in single variable
+
+        -> Tuples are represented using () or using tuple class
+
+        -> Accessing Data in Tuples
+
+            -> Like in strings, for Tuples we have index starts from 0
+
+            -> Has both positive and negative index
+
+            -> Indexing same as strings
+
+            -> Slicing same as strings
+
+            -> nums = (10,20,30,40,50)
+
+                     0   1    2    3    4  (positive indexing)
+                    10   20   30   40   50  
+                    -6             -2   -1 (negative indexing)
+            
+            -> string[start:stop:step]
+
+            start: index to start from (inclusive)
+            stop: index to stop at (exclusive)
+            step: how many character to step(default is 1)
+
+    -> Negative Slicing (Backward)
+
+    -> Positive Slicing (Forward)
+
+    -> Looping Through Tuples 
+
+    -> Using Operators on elements of Tuples
+
+    -> Conditionals with Tuples 
+
+    -> Duplicates are also allowed in Tuples 
+
+    -> Tuples Methods / Operations
+
+        print(dir(tuple))
     
+
+-> Tuples Characteristics 
+
+    -> Ordered : Tuples preserve order 
+
+    -> Immutable(*) : Not Changeable / Not Modifiable (only index() & count())
+
+    -> Duplicates allowed 
+
+    -> Can hold different types of data (int, str, float etc)
+
+    -> NOTE : Tuples should be used in READ ONLY DATA (Constant/Fixed/Static)

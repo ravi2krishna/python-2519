@@ -109,3 +109,61 @@ print(count_40)
 
 list = [10]
 print(dir(list))
+
+# reverse() : reverses the elements in the list, inplace operation
+list_nums = [10,20,30,40,50]
+print(list_nums)
+list_nums.reverse()
+print(list_nums)
+
+# reverse using slicing technique 
+list_nums = [10,20,30,40,50]
+print(list_nums)
+print(list_nums[::-1])
+print(list_nums)
+
+# sort() : sort the elements of list, inplace operation, ascending order 
+list_nums = [20,10,30,50,40]
+print(list_nums)
+print(list_nums.sort())
+print(list_nums)
+
+# sort in descending order 
+list_nums = [20,10,30,50,40]
+print(list_nums)
+print(list_nums.sort(reverse=True))
+print(list_nums)
+
+# sort with text
+list_courses = ["c","python","java","cloud"]
+print(list_courses)
+print(list_courses.sort())
+print(list_courses)
+
+# mixed data
+list_mix = [20,10,"c","python",30,50,40]
+print(list_mix)
+# print(list_mix.sort()) # TypeError: '<' not supported between instances of 'str' and 'int'
+print(list_mix)
+
+# copy() : creates a shallow copy, meaning when we modify the backup copy, original will not affect 
+list_nums = [10,20,30,40,50]
+print(list_nums)
+
+bk_list = list_nums.copy()
+print(bk_list)
+
+bk_list.append(60)
+print("Backup Copy: ",bk_list)
+print("Original Copy: ",list_nums)
+
+# soft copy(=), meaning when we modify the backup copy, original will also affect 
+list_nums = [10,20,30,40,50]
+print(list_nums)
+
+bk_list = list_nums
+print(bk_list)
+
+bk_list.append(60)
+print("Backup Copy: ",bk_list)
+print("Original Copy: ",list_nums)
