@@ -729,3 +729,26 @@
     -> Can hold different types of data (int, str, float etc)
 
     -> NOTE : Tuples should be used in READ ONLY DATA (Constant/Fixed/Static)
+
+18th Sep 2025
+=============
+
+-> Dictionaries (Mapping Type Of Data)
+
+    -> Dictionaries are a data Structure which allows you to store multiple key values in single variable
+
+    -> key:value : Item/Pair 
+
+    -> Dictionaries are represented using {} or using dict class
+
+    -> NO INDEXING 
+
+    -> NO SLICING 
+
+    -> key:value ==> immutable:any_object
+
+        -> keys can be immutables only (tuple, string, int)
+
+        -> values can be any object
+
+        
