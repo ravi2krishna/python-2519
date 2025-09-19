@@ -776,3 +776,29 @@
             -> values can be any object
         
         -> NOTE : Dictionaries should be used in MAPPING TYPE Of data
+
+-> Sets 
+
+    -> Sets is a data Structure which allows you to store multiple values in single variable
+
+        -> Sets are represented using {} or using set class
+
+        -> dict = {1:100,2:200}
+        -> set = {100,200}
+
+    -> Sets are UUU 
+
+        -> U - Unique (No Duplicates, if you add they will be removed)
+        -> U - Unordered (Insertion Order is not preserved)
+        -> U - Unindex (No Index)
+
+        -> No Indexing
+
+        -> No Slicing
+
+    -> Sets are used especially for set related Mathematical operations
+
+        -> Union
+        -> Intersection 
+        -> Difference 
+        -> Symmetric Difference
