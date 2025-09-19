@@ -751,4 +751,28 @@
 
         -> values can be any object
 
+
+19th Sep 2025
+=============
+
+    -> Dictionary Operations
+
+    -> Dictionary Characteristics 
+
+        -> Ordered : Dictionary preserve order 
+
+        -> Mutable : Changeable / Modifiable (update(), clear())
+
+        -> Duplicates allowed 
+
+            -> keys cannot be duplicates, if they are values will be replaced 
+
+            -> value can be duplicates
+
+        -> Can hold different types of data 
+
+            -> keys should immutable only
+
+            -> values can be any object
         
+        -> NOTE : Dictionaries should be used in MAPPING TYPE Of data
