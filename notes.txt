@@ -788,8 +788,8 @@
 
     -> Sets are UUU 
 
-        -> U - Unique (No Duplicates, if you add they will be removed)
         -> U - Unordered (Insertion Order is not preserved)
+        -> U - Unique (No Duplicates, if you add they will be removed)
         -> U - Unindex (No Index)
 
         -> No Indexing
@@ -802,3 +802,25 @@
         -> Intersection 
         -> Difference 
         -> Symmetric Difference
+
+20th Sep 2025
+=============
+
+    -> Set Operations
+
+    -> Set is Mutable 
+    -> FrozenSet is Immutable
+
+    -> Set Characteristics 
+
+        -> UnOrdered : Set don't preserve order 
+
+        -> Mutable : Changeable / Modifiable 
+
+        -> Duplicates Not allowed 
+
+        -> Can hold different types of data (int, str, float etc)
+
+        -> NOTE : Sets should be used in unordered / random access
+
+        -> ImMutable Set: FrozenSet
