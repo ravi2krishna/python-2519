@@ -824,3 +824,16 @@
         -> NOTE : Sets should be used in unordered / random access
 
         -> ImMutable Set: FrozenSet
+
+22nd Sep 2025
+=============
+
+    -> Student Management System Using Complex Data Types 
+
+    -> This Application will simulate CRUD operations that we perform on Databases 
+
+    -> As of now it's a console based Application
+
+    -> If you know web app frameworks, then you can build a web layer around this 
+
+        -> Django 
