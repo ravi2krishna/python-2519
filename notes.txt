@@ -837,3 +837,8 @@
     -> If you know web app frameworks, then you can build a web layer around this 
 
         -> Django 
+
+23rd Sep 2025
+=============
+
+    -> Student Management System Continued 

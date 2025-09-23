@@ -26,12 +26,82 @@ while True:
     
     if choice == "1":
         print("Adding Student Logic")
+        student_id = input("Enter ID: ")
+        if student_id in students:
+            print("ID Already exists")
+        else:
+            name = input("Enter Name: ").title()
+            scores = []
+            while True:
+                score_input = input("Enter Score or type done: ")
+                if score_input == "done":
+                    break
+                if score_input.isdigit():
+                    score = int(score_input)
+                    if 0<= score <=100:
+                        scores.append(score)
+                    else:
+                        print("Scores should be in range (0-100)")
+                else:
+                    print("Scores can be numbers only")
+            
+            skills = set()
+            while True:
+                skill_input = input("Enter Skill or type done: ")
+                if skill_input == "done":
+                    break
+                skills.add(skill_input.title())
+            
+            # save student details 
+            students[student_id] = {
+                "name": name,
+                "scores": scores,
+                "skills": skills
+            }
+            print("Student Added")
+            
+            # for confirmation
+            print(students)
+
+            
     elif choice == "2":
-         print("Modifying Student Logic")
+        print("Modifying Student Logic")
+        student_id = input("Enter ID To Update: ")
+        if student_id in students:
+            new_name = input("Enter New Name: ").title()
+            students[student_id]["name"] = new_name
+            print("Name Updated")
+        else:
+            print("ID Doesn't exists")
+        
+        # for confirmation
+        print(students)
+                  
+         
     elif choice == "3":
-         print("Deleting Student Logic")    
+        print("Deleting Student Logic")   
+        student_id = input("Enter ID To Delete: ")
+        if student_id in students:
+            remove = students.pop(student_id)
+            print(remove)
+        else:
+            print("ID Doesn't exists")
+    
+        # for confirmation
+        print(students)
+                  
     elif choice == "4":
-         print("Listing Students Logic") 
+        print("Listing Students Logic") 
+        if not students:
+            print("No Students Available")
+        else:
+            print("Student Details")
+            
+            for sid, data in students.items():
+                name = data["name"]
+                scores = data["scores"]
+                
+                      
     elif choice == "5":
          print("Exiting System") 
          break
