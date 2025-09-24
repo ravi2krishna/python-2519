@@ -25,7 +25,6 @@ while True:
     choice = input("Enter Your Choice (1-5): ")
     
     if choice == "1":
-        print("Adding Student Logic")
         student_id = input("Enter ID: ")
         if student_id in students:
             print("ID Already exists")
@@ -65,7 +64,6 @@ while True:
 
             
     elif choice == "2":
-        print("Modifying Student Logic")
         student_id = input("Enter ID To Update: ")
         if student_id in students:
             new_name = input("Enter New Name: ").title()
@@ -79,7 +77,6 @@ while True:
                   
          
     elif choice == "3":
-        print("Deleting Student Logic")   
         student_id = input("Enter ID To Delete: ")
         if student_id in students:
             remove = students.pop(student_id)
@@ -91,7 +88,6 @@ while True:
         print(students)
                   
     elif choice == "4":
-        print("Listing Students Logic") 
         if not students:
             print("No Students Available")
         else:
@@ -101,9 +97,28 @@ while True:
                 name = data["name"]
                 scores = data["scores"]
                 
-                      
+                avg = sum(scores)/len(scores)
+                high_score = max(scores)
+                
+                skills = data["skills"]
+                skills_count = len(skills)
+                
+                print("========= DETAILS =========")
+                print(f"ID: {sid}")
+                print(f"Name: {name}")
+                print(f"All Scores: {scores}")
+                print(f"Average Score: {avg}")
+                print(f"Highest Score: {high_score}")
+                print(f"All Skills: {skills}")
+                print(f"Count Of Skills: {skills_count}")
+                
+                
     elif choice == "5":
-         print("Exiting System") 
+         print("="*50)
+         print(f"ADMIN CONTACT DETAILS")
+         print("="*50)
+         print(f"ADMIN PHONE: {ADMIN_INFO[1]}")
+         print(f"ADMIN EMAIL: {ADMIN_INFO[0]}")
          break
     else:
         print("Invalid Option, Select only (1-5): ") 
