@@ -891,3 +891,29 @@
         -> Passing default values as arguments to the functions
 
         -> Once we start adding default arguments, the next consecutive arguments should be default only 
+
+25th Sep 2025
+=============
+
+    -> Keyword Argument Based
+
+        -> Arguments will be passed explicitly specifying the name, so function call is 
+            based on the name of the argument 
+
+        -> Order doesn't matter 
+
+        -> Improve code readability when you have multiple parameters
+
+        -> Once we start adding Keyword arguments, the next consecutive arguments should be Keyword only 
+
+    -> Arbitrary Positional Argument Based (*args)
+
+        -> Arbitrary : unknown / random 
+
+        -> Arbitrary Positional  will accept any number of Positional Based  Argument
+
+    -> Arbitrary Keyword Argument Based (**kwargs)
+
+        -> Arbitrary : unknown / random 
+
+        -> Arbitrary Keyword  will accept any number of Keyword Based  Argument
