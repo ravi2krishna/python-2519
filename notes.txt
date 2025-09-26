@@ -917,3 +917,39 @@
         -> Arbitrary : unknown / random 
 
         -> Arbitrary Keyword  will accept any number of Keyword Based  Argument
+
+26th Sep 2025
+=============
+
+    -> "return" is a keyword in python, used in functions to give appropriate 
+        response, when the function is called
+
+    -> If we are using return make sure it is the last statement to be executed
+
+    -> Function Composition 
+
+        -> Function calling another function is called Function Composition, its for REUSABILITY
+
+    -> Scope Of Variables Within Functions
+
+        -> Scope : Where inside the code, a variable can be used or not
+
+            -> Local Scope 
+
+                -> A local variable is declared inside a function
+                -> it only exists while the function runs
+                -> we cannot use them outside the function
+
+            -> Global Scope 
+
+                -> A Global variable is declared outside the function
+                -> it exists outside the function call as well
+                -> it can be used anywhere in code, inside or outside the functions
+                -> Global variable are read only by default
+                -> As global variables can be accessed inside the functions, there can be
+                name conflicts, in that case local variables get first preference  
+                    -> if name conflict is there, and still want to give first preference to
+                        global then we use globals()
+                -> If you want global variable to changed inside the function, then we
+                    need to use a special keywords called global 
+                

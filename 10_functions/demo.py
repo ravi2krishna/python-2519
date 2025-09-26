@@ -143,3 +143,101 @@ def cred_transactions_new(*transactions,**account):
     print(f"Hi {account['name']} you have done {total} amount of transactions in account {account['account_id']}")
 
 cred_transactions_new(1000,3000,6000,name="Ravi",account_id=30930393388)
+
+
+# without return
+def add(a,b):
+    a+b
+
+add(10,20)
+print(add(20,30)) # None
+
+# with return
+def add(a,b):
+    return a+b
+add(10,20)
+print(add(20,30))
+
+# multiple returns - incorrect 
+def math_new(a,b):
+    return a+b
+    return a*b
+    return a/b
+
+print(math_new(10,20))
+
+# multiple returns - correct 
+def math_new(a,b,opr):
+    if opr == "+":
+        return a+b
+    elif opr == "*":
+        return a*b
+    elif opr == "/":
+        return a/b
+    else:
+        return "Invalid Operator"
+    print("This will not be reachable")
+
+print(math_new(10,20,"+"))
+print(math_new(10,20,"*"))
+print(math_new(10,20,"#"))
+
+# function Composition
+def add(a,b):
+    return(a+b)
+
+def sub(c,d,e):
+    return add(c,d)-e
+
+print(sub(3,4,5)) # 2
+
+# local scope of variables
+def add():
+    # local variables 
+    la = 5
+    lb = 10
+    print(la) # accessing within function
+    print(lb) # accessing within function
+add()
+
+# outside the function
+# print(la) # accessing outside the function
+
+# parameters passed to functions are local variables
+def add(la,lb):
+    print(la) # accessing within function
+    print(lb) # accessing within function
+add(10,20)
+
+# outside the function
+# print(la) # accessing outside the function
+    
+# global variable
+ga = 30
+
+def add(la,lb):
+    print(la)
+    print(lb)
+    print(ga) # accessing global variable inside function
+    
+add(1,2)
+print(ga) # accessing global variable outside function
+
+# name conflict 
+ga = 30
+
+def add(la,lb,ga):
+    print(la) # 1
+    print(lb) # 2
+    print(ga) # 3
+    print(globals()['ga']) # 30
+
+add(1,2,3)
+
+# trying to change global variable 
+count = 0
+def increment():
+    global count
+    count += 1
+increment()
+print("Count: ",count)
