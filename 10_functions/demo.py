@@ -241,3 +241,39 @@ def increment():
     count += 1
 increment()
 print("Count: ",count)
+
+# Without Lambda Function 
+def add(a,b):
+    return a+b
+
+print(add(3,4))
+
+# With Lambda Function 
+# lambda arguments: expression
+sum = lambda a,b: a+b
+print(sum(5,10))
+
+# IILE
+print((lambda a,b: a+b) (1,2))
+print((lambda a,b: a+b) (10,20))
+print((lambda a,b: a+b) (100,200))
+
+# Regular Function 
+def is_even(num):
+    if num % 2 == 0:
+        return True
+    else:
+        return False
+print(is_even(10))
+print(is_even(11))
+
+
+# Lambda Style
+is_even = lambda num: num % 2 == 0
+print(is_even(10))
+print(is_even(11))
+
+print((lambda num: num % 2 == 0) (10))
+print((lambda num: num % 2 == 0) (11))
+
+print(dir(__builtins__))
