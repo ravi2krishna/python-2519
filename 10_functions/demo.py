@@ -276,4 +276,56 @@ print(is_even(11))
 print((lambda num: num % 2 == 0) (10))
 print((lambda num: num % 2 == 0) (11))
 
-print(dir(__builtins__))
+# print(dir(__builtins__))
+
+# Without map()
+# Take a list of numbers and return a new list where squaring of each element should be done
+# input [1,2,3,4] => [1,4,9,16]
+def square_list(numbers):
+    squared_numbers = []
+    for num in numbers:
+        squared_numbers.append(num * num)
+    return squared_numbers 
+
+print(square_list([1,2,3,4]))       
+
+# with map() -> map(function, iterable)
+print(map(lambda num: num * num, [1,2,3,4])) # <map object at 0x1030cded0>
+
+# convert the map object to list object 
+print(list(map(lambda num: num * num, [1,2,3,4])))
+
+# Without filter()
+# Take a list of numbers and return a new list where only even elements should be present
+# input [1,2,3,4,5,6,7,8,9,10] => [2,4,6,8,10]
+
+def even_list(numbers):
+    even_numbers = []
+    for num in numbers:
+        if num % 2 == 0:
+           even_numbers.append(num)
+    return even_numbers
+
+print(even_list([1,2,3,4,5,6,7,8,9,10]))
+ 
+# with filter() -> filter(function, iterable)
+print(filter(lambda num: num % 2 == 0, [1,2,3,4,5,6,7,8,9,10])) # <filter object at 0x1004c6500>
+
+# convert the filter object to list object 
+print(list(filter(lambda num: num % 2 == 0, [1,2,3,4,5,6,7,8,9,10])))
+
+# Without reduce()
+# Take a list of numbers and find the product of all elements 
+# input [1,2,3,4] => (1*2*3*4) => 24
+
+def multiply(numbers):
+    result = 1
+    for num in numbers:
+        result = result * num
+    return result
+
+print(multiply([1,2,3,4]))
+
+# with reduce() -> reduce(function, iterable)
+from functools import reduce
+print(reduce(lambda num, result: num * result, [1,2,3,4])) 
