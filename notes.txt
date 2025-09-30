@@ -1041,3 +1041,10 @@
         -> map() : For loop 
         -> filter() : For loop with condition
         -> reduce() : combine all to single value 
+
+30th Sep 2025
+=============
+
+    -> Student Management System Using Functional Style
+
+    
