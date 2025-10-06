@@ -1048,3 +1048,41 @@
     -> Student Management System Using Functional Style
 
     
+6th Oct 2025
+=============
+
+    -> Modules 
+
+        -> A module is a python file (.py) that contains Python Definitions
+            (variables, functions, classes etc) and Statements
+
+        -> It allows you to reuse code, by importing the module, 
+            instead of rewriting again and again
+
+
+    -> Types Of Modules
+
+        -> Built in modules
+
+            -> Provided as part of python standard Library
+
+        -> User Defined Modules
+
+            -> Created by your self, based on custom requirements
+
+        -> External Modules 
+
+            -> Provided by 3rd party vendors, you need pip tool 
+
+            -> pip : python package manager 
+
+            -> Downloaded from pypi.org 
+
+    
+    -> Syntax 
+
+        import module (import whole module)
+
+        from module import functionality (import specific functionality from module) (recommended)
+
+
