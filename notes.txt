@@ -1076,7 +1076,11 @@
 
             -> pip : python package manager 
 
-            -> Downloaded from pypi.org 
+            -> pip install <package> (win)
+
+            -> pip3 install <package> (mac)
+
+            -> Downloaded from https://pypi.org/
 
     
     -> Syntax 
@@ -1086,3 +1090,22 @@
         from module import functionality (import specific functionality from module) (recommended)
 
 
+7th Oct 2025
+=============
+
+    -> functions : block of code for REUSABILITY
+
+    -> modules : a file of code for REUSABILITY
+
+    -> package : a folder of code for REUSABILITY
+
+    -> Package 
+
+        -> A folder with multiple modules (python files) 
+
+        -> Use it with folder name 
+
+        -> NOTE: We need to create a special file in order to make a folder as package
+
+            -> __init__.py (empty content / start up configs)
+        
