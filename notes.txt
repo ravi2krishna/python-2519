@@ -1109,3 +1109,28 @@
 
             -> __init__.py (empty content / start up configs)
         
+
+    -> File Management With Python 
+
+        -> File Operations
+
+            -> CRUD 
+
+                -> CREATE
+                -> READ
+                -> UPDATE 
+                -> DELETE 
+
+        -> Earlier all the above activities we did in non-persistent storage (RAM)
+
+            -> non-persistent storage/data - Temporary 
+
+        -> Now i need the programs to save the data (HDD/SSD)
+
+            -> persistent storage/data - Permanent  
+
+    -> A file can be controlled using open() function with modes 
+
+        -> read - r
+        -> write - w
+        -> append - a 
