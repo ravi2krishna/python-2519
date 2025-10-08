@@ -1134,3 +1134,16 @@
         -> read - r
         -> write - w
         -> append - a 
+
+8th Oct 2025
+=============
+
+    -> File Operations Continued 
+
+    -> To Read we can use read(), readline(), readlines()
+
+    -> To Write i.e we can also create / update using "w" mode 
+
+        -> write mode will overwrite 
+
+    -> To Append i.e ame as write but keeps previous data then write new data using "a" mode 
