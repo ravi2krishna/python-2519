@@ -1200,3 +1200,27 @@
             -> dumps
 
             -> loads 
+
+11th Oct 2025
+=============
+
+    -> Exception Handling 
+
+        -> Exception : It's an Error, which occurs during the program execution 
+
+        -> By default when python encounters an Error, it abruptly STOPS the Program 
+
+        -> To change the above behavior, and handle the Exceptions by yourself we need following 
+
+            -> try : used to keep the code that will cause errors 
+
+            -> except : used to keep the code that should run, when error occurs 
+
+            -> else : used to keep the code that should run, if no Exceptions are raised in try block 
+
+            -> finally : used to keep the code, which should definitely run, even if there is an Exception or not 
+                         closing connections etc 
+
+
+
+
