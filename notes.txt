@@ -1178,3 +1178,25 @@
                 -> writeheader()
                 -> writerow()
                 -> writerows(Iterable)
+
+10th Oct 2025
+=============
+
+    -> Working With JSON Files (Dictionary Like Data)
+
+        -> Very Commonly used in Full Stack Development (API)
+
+    -> We have "json" module built-in standard python Library
+
+        -> csv module provides classes that assist in the reading and writing of 
+            Comma Separated Value (CSV) files
+
+        -> json operations
+
+            -> dump
+
+            -> load 
+
+            -> dumps
+
+            -> loads 
