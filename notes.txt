@@ -1223,4 +1223,13 @@
 
 
 
+13th Oct 2025
+=============
+
+    -> User Defined Exceptions 
+
+        -> Syntax 
+
+            class UserDefinedException(Exception):
+                pass
 

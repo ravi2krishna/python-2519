@@ -121,3 +121,27 @@ finally:
     print("Program Execution Ended")
 
 print("="*50)
+
+# User Defined Exception
+class AgeError(Exception):
+    pass
+
+age = int(input("Enter Age: "))
+
+if age < 18:
+    raise AgeError("Age Error at least 18 required")
+else:
+    print("You can vote")
+    
+# Handle Custom Exception 
+class AgeError(Exception):
+    pass
+
+age = int(input("Enter Age: "))
+try:
+    if age < 18:
+        raise AgeError
+except:
+    print("Age Error at least 18 required")
+else:
+    print("You can vote")
