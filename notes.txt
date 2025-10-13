@@ -1233,3 +1233,125 @@
             class UserDefinedException(Exception):
                 pass
 
+
+    -> OOP 
+
+        -> Object-oriented programming is a programming paradigm based on the "object" 
+        a software entity that encapsulates data and function/method. 
+        An OOP computer program consists of objects that interact with one another.
+
+        -> OOP is way of writing programs that models real world entities (object)
+
+            -> Student, Pen, Bike etc 
+
+        -> Earlier 
+
+            -> Writing Long List Of Instructions 
+
+        -> Now 
+
+            -> Think in terms of real world entities (object)
+
+                -> Object - Data (Attributes / Variables)
+
+                -> Object - Behavior (Methods / Functions)
+
+        -> OOP Style Of Coding 
+
+            -> Writing Code that follows Object Oriented Design
+
+                -> Focus is in Objects & Object Relationship, not just functions
+
+                -> You don't think about steps, you think about "who does what"
+
+        ->  Four Pillars of OOP
+
+            -> Inheritance 
+
+                -> Reusability of Code From Parent Classes 
+
+            -> Encapsulation
+
+                -> Binding Data & Methods Together
+
+            -> Abstraction 
+
+                -> Hiding Complexity 
+
+            -> Polymorphism
+
+                -> Extensibility (One Entity -> Multiple Forms)
+    
+    ->                      Functional Style     vs      Object Oriented Style 
+
+    -> Focus                Step by step actions            Real World Objects 
+
+    -> Data & Function      Separate                        Combined Inside Class 
+
+    -> Code Organization    One Big Script                  Multiple Reuseable Classes 
+
+    -> Reusability          Harder                          Easier via Inheritance 
+
+    -> Maintenance          Complex as code grows           Cleaner as 
+
+
+    -> Functional Style Code 
+
+        def student_attend_session(name):
+            print(f"{name} attended session")
+
+    -> Object Oriented Style Code
+
+        class Student:
+            def __init__(self, name):
+                self.name = name 
+
+            def attend_session(self):
+                print(f"{self.name} attended session")
+
+        -> OOPS version binds data and methods together     
+
+    -> Why OOP / Advantages of OOP
+
+        -> Makes Code Modular (Easy To understand)
+
+        -> Lot Of Reusability 
+
+        -> Supports Scalability (Easy To Build A Growing System )
+
+        -> Mirrors Real World Structure
+
+    -> Object 
+
+        -> In terms of real world everything is an object
+
+        -> Object has two entities
+
+            -> An Object has something like Characteristics / properties (DATA) (car)
+
+                -> car has a brand 
+                -> car has a color
+                -> car has price  
+
+
+            -> An Object does something like behavior (METHOD) (car)
+
+                -> car does drive forward
+                -> car does drive backward
+                -> car does horn
+                -> car does blinkers 
+
+            -> So, How to create an object ?
+
+                -> We need Class 
+
+
+    -> Class 
+
+        -> A class is blueprint that defines Characteristics / properties (DATA) 
+        and behaviors (METHOD) of an object 
+
+    -> Object
+
+        -> An Object is actual / real instance of a class 
+
