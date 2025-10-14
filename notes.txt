@@ -1355,3 +1355,63 @@
 
         -> An Object is actual / real instance of a class 
 
+
+14th Oct 2025
+=============
+
+    -> Classes & Objects 
+
+    -> syntax
+
+        class ClassName:
+            pass 
+
+        object_name = ClassName()
+
+    -> Classes will be called automatically unlike functions 
+
+        -> class call is not mandatory 
+
+    -> Methods 
+
+        -> Methods are like functions which are associated with objects 
+
+            -> Like a function / methods is also a block of code which does task 
+
+        -> Methods are defined inside the class 
+
+        ->                     Function                            Method
+
+        How to call            function_name(args)                 object.method_name(args)
+
+        Belongs To             Independent                         Object 
+
+        Defined using          def function_name                   def method_name(inside class)
+
+    -> self 
+
+        -> self refers to the current object 
+        -> python automatically passes self when you call a method using object 
+        -> that's why your methods must accept self as first parameter 
+
+        -> NOTE : self is like this in other programming language (java)
+
+    -> __init__ 
+
+        -> __init__ is a special method in python 
+
+        -> In other programming languages we have constructors 
+
+        -> In python constructor is a special method i.e __init__()
+
+        -> __init__ runs automatically, when a object is created 
+
+        -> __init__ is used to initialize values to an object 
+
+        -> syntax
+
+            class ClassName:
+                def __init__(self,parameters):
+                    # assign the values  
+
+        -> __init__ Implicitly returns None and we cannot change it 
