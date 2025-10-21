@@ -1415,3 +1415,231 @@
                     # assign the values  
 
         -> __init__ Implicitly returns None and we cannot change it 
+
+16th Oct 2025
+=============
+
+    -> Instance Members => Instance Variables & Instance Methods 
+
+    -> Instance Variables / Attributes 
+
+        -> Instance Variables belongs to an object i.e instance, not the class 
+
+        -> Instance Variables are defined in the __init__ method using self keyword 
+
+        -> Each Object you create has it's own copy of instance variable with different values 
+
+        -> Modifying an instance variable in one object, doesn't affect the same variable
+            in other objects 
+
+        -> Accessed via self.variable_name
+
+        -> syntax
+
+            class Demo:
+                def __init__(self,value):
+                    self.instance_var = value 
+
+
+    -> Instance Methods 
+
+        -> Methods which are defined inside a class which 
+            operates on instance variables i,e operate on object
+
+        -> Instance Methods are very commonly used types of methods in OOP 
+
+        -> Instance Methods always take "self" as the first parameter 
+
+        -> Instance Methods can access instance variables and also class variables too 
+
+        -> Called using object_name.method()
+
+    
+    -> Class Variables 
+
+        -> Class Variables are shared across all the instances of class 
+            i.e shared by all the objects of the class 
+
+        -> Class Variables belong to class, rather than objects, ideal for  
+            storing data that is common/fixed for all objects 
+
+        -> Defined inside the class, but outside the methods 
+
+        -> Accessed using Classname.variable_name or object.variable_name 
+
+            -> recommended is using Classname.variable_name
+
+        -> NOTE : If Class Variables are changed, the change is reflected in all the instances unlike instance vars 
+
+        -> Class Variables are memory efficient as only one copy is there unlike multiple copies like objects 
+
+        -> syntax
+
+            class Demo:
+                class_var = "i'm shared data"
+        
+    -> Class Methods 
+
+        -> Methods inside the class, which operates on class variables 
+
+        -> Not very commonly used 
+
+        -> Class Methods take "cls" as the first parameter 
+
+        -> Class Methods are defined using @classmethod decorator 
+
+        -> Can be accessed using Class Name or object, recommended is Classname 
+
+        -> Accessing instance data inside a class method gives error 
+
+    -> Static Members 
+
+        -> In python we don't have Static Variables 
+
+            -> In other languages like java static variable is equivalent to Class Variable 
+
+            -> Static Variable == Class Variable
+
+        -> Static Methods 
+
+            -> Static Methods are not bound to either class or object 
+
+            -> Static Methods does not depend on instance variable or class variable 
+
+            -> Not a common method 
+
+            -> Don't take self or cls as first parameter 
+
+            -> NOTE : Behaves like a normal function, but inside a class  
+
+            -> Declared used @staticmethod 
+
+            -> Used as utilities / helper functions 
+
+            -> Can be classed using both i,e class and object also 
+
+17th Oct 2025
+=============
+
+    -> Learning Management System (LMS)
+
+    -> Idea : How to use classes, objects and methods.
+
+    -> Simulation of Grading and Payment System within LMS 
+
+        -> Grading - Student 
+
+        -> Payment - Trainer 
+
+    -> The project is designed to help us understand how classes work together
+        by defining methods and passing the data across the classes 
+
+    -> Student Module 
+
+        -> Student Info (ID, Name, Age etc)
+        -> Attendance 
+        -> Performance Based On Score 
+        -> Trainer Rating 
+        -> etc 
+
+        -> Have Hover Like Functionality, which shows basic info like ID & Name 
+
+        -> Have Click Like Functionality, which shows complete info like 
+            ID, Name, Age, Email, Mobile Number 
+
+        -> Ask student for number of sessions attended 
+
+            -> 30 or more sessions attended add 5 Credits 
+            -> 20-29 sessions attended add 3 Credits 
+            -> Below 20 sessions attended add 0 Credits 
+
+        -> Accept a score and based on score give credits 
+
+            -> 85 and above score add 5 Credits 
+            -> 60-84 score range add 3 Credits 
+            -> Below 60 score add 0 Credits 
+
+        -> Calculate final credits based on above 
+
+            -> 10 Credits give 1st 
+            -> 8-9 Credits give 2nd 
+            -> Below 8 give 3rd
+
+    -> Trainer Module 
+
+        -> Trainer Info (ID, Name)
+
+        -> Ask for number of sessions taken by trainer 
+
+        -> Calculate payment for taking sessions, per session 2000
+
+        -> Ask Student Rating for Trainer (1-5) 
+
+            -> Rating is 5 : Give 5000 bonus 
+            -> Otherwise : Give 0 bonus 
+
+        -> Calculate Total Payment For Sessions 
+
+
+21st Oct 2025
+=============
+
+    -> 4 Pillars Of OOP 
+
+        -> Inheritance 
+
+        -> Encapsulation
+
+        -> Abstraction
+
+        -> Polymorphism
+
+    -> Inheritance 
+
+        -> Inheritance is a core OOP concept where a new class, 
+        called a subclass or child class, acquires the properties(vars) and methods 
+        of an existing class, called a superclass or parent class.
+
+        -> Main purpose of Inheritance is Code Reusability
+        
+        -> Syntax 
+
+            class Parent:
+                pass 
+
+            class Child(Parent):
+                pass 
+        
+        -> With Inheritance
+
+            -> Code Reusability
+
+            -> No Code Duplication 
+
+            -> Project Size is less 
+
+            -> Code Reliability improved 
+
+            -> Code Maintainability improved
+
+    -> Types Of Inheritance 
+
+        -> Single Level Inheritance
+
+            -> One Parent -> One Child 
+
+        -> Multi Level Inheritance 
+
+            -> Parent -> Child -> GrandChild 
+
+        -> Multiple Inheritance 
+
+            -> One Child -> Multiple Parents 
+
+        -> Hierarchial Inheritance
+
+            -> One Parent -> Multiple Child 
+
+        -> Hybrid Inheritance
+
+            -> Combination or two or more types 
